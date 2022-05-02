@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.loop li::marker {
+  color: #61dafb;
+  font-size: 13px;
+}
 
 .App-logo {
   height: 40vmin;

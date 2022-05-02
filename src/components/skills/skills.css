@@ -1,0 +1,17 @@
+.skwrap {
+    padding: 30px;
+}
+
+.skhead {
+    color:black;
+    font-size: 27px;
+    display: flex;
+    
+}
+.xterm {
+    background-image: url('../../static/terminal.svg');
+        width: 30px;
+        height: 36px;
+        margin-top: 5px;
+        background-repeat: no-repeat;
+}

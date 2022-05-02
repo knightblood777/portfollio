@@ -1,0 +1,35 @@
+.shwrapper,.left,.right,.center {
+    display: flex;
+}
+.shwrapper {
+    width: 100%;
+    justify-content: space-between;
+}
+.left,.right,.center {
+    align-items: center;
+}
+@keyframes squiggly-anim {
+    0%   {filter:url('#squiggly-0')}
+    25%  {filter:url('#squiggly-1')}
+    50%  {filter:url('#squiggly-2')}
+    75%  {filter:url('#squiggly-3')}
+    100% {filter:url('#squiggly-4')}
+  }
+
+.center {
+    animation:squiggly-anim 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+    vertical-align: middle;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    line-height: 1;
+    justify-self: center;
+    font-size: 33px;
+}
+
+@media screen and (max-width: 1045px) {
+    .left svg,.right svg{
+        width: 100px;
+        height: 100px;
+    }
+}

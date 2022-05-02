@@ -6,8 +6,56 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root{
+  scrollbar-color: #6e42c1e8 rgba(0, 0, 0, 0.801) !important;
+  scrollbar-width: thin !important;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.root {
+  display: flex;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.content {
+  display: flex;
+  max-width: max-content;
+  flex-direction: column;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+#loop {
+  width: 100%;
+}
+.shwrapper {
+  max-width: max-content;
+}
+.Important {
+  color:#0e6b0e
+}
+#skills div:nth-child(2) {
+  width: 100%;
+}
+.skillbar-percent {
+  color:black !important;
+}
+.xterm {
+  display: inline-block;
+}
+#timeline,#social {
+  flex-direction: column;
+}
+
+@media screen and (max-width:500) {
+  .sidebar {
+    display: none;
+  }
+}
+

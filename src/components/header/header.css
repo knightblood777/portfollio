@@ -1,0 +1,44 @@
+.header-side-nav {
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+a {
+    color:black !important;
+    text-decoration: none !important;
+}
+#sidebar {
+    position: sticky;
+left: 0;
+top: 0;
+width: max-content;
+display: flex;
+align-items: center;
+border-right: 1.5px solid rgba(128, 128, 128, 0.13);
+}
+.header-avatar {
+    display: flex;
+    justify-content: center;
+}
+.term {
+    color:  #0e6b0e;
+    transition: color 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.logo-href {
+    color: black;
+}
+.logo-href:hover .term{
+    color:black;
+}
+
+@media screen and (max-width:800px) {
+    .header-side-nav {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .header {
+        display: none;
+      }
+    
+}
+

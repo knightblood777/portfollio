@@ -1,0 +1,11 @@
+.prhead {
+    display: flex;
+    align-items: center;
+}
+.prwrap {
+    padding: 30px;
+}
+.Important-md {
+    color: #0e6b0e;
+    font-style: italic;
+}
