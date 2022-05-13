@@ -1,6 +1,9 @@
 .shwrapper,.left,.right,.center {
     display: flex;
 }
+.shwrapper{
+    max-width: none;
+}
 .shwrapper {
     width: 100%;
     justify-content: space-between;
@@ -8,7 +11,11 @@
 .left,.right,.center {
     align-items: center;
 }
-@keyframes squiggly-anim {
+.center span{
+    font-size: 1.9rem;
+font-family: mono-space;
+}
+/* @keyframes squiggly-anim {
     0%   {filter:url('#squiggly-0')}
     25%  {filter:url('#squiggly-1')}
     50%  {filter:url('#squiggly-2')}
@@ -25,7 +32,7 @@
     line-height: 1;
     justify-self: center;
     font-size: 33px;
-}
+} */
 
 @media screen and (max-width: 1045px) {
     .left svg,.right svg{
